@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Upload-Image-DB
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/upload_image_db
+    username: postgres
+    password: Gulbarga@321
+  jpa:
+    hibernate:
+      ddl-auto: update
